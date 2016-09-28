@@ -1,0 +1,3 @@
+function calculateExponentalE = calculateArea(x)
+% Function to calculate an area given two lengths (x, y)
+area = x*y;
