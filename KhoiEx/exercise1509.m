@@ -70,5 +70,19 @@ end
 H
 B
 
-%pro9
+ %Problem 14
+%  c=5
+%  t=[0:0.1:10*pi];
+%  plot3(sin(t/(2*c)).*cos(t),sin(t/(2*c)).*sin(t),cos(t/(2*c)));
+%  
+% a=10;b=1;c=0.3;t=[0:.1:2*pi];
+% x = cos(t).*sqrt(b^2-(c^2).*cos(a*t).^2);
+% y = sin(t).*sqrt(b^2-(c^2).*cos(a*t).^2);
+% z = c.*cos(a*t); 
+% plot3(x,y,z);
+
+%Problem 15
+list = [3,-1,-7,8,9,0,-3];
+
+findNearestBest(list,6)
 
