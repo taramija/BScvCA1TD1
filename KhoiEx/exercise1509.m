@@ -70,7 +70,7 @@ end
 H
 B
 
- %Problem 14
+% %Problem 14
 %  c=5
 %  t=[0:0.1:10*pi];
 %  plot3(sin(t/(2*c)).*cos(t),sin(t/(2*c)).*sin(t),cos(t/(2*c)));
@@ -81,8 +81,10 @@ B
 % z = c.*cos(a*t); 
 % plot3(x,y,z);
 
-%Problem 15
-list = [3,-1,-7,8,9,0,-3];
+% %Problem 15
+% list = [3,-1,-7,8,9,0,-3];
+% 
+% findNearestBest(list,6)
 
-findNearestBest(list,6)
-
+%Problem 20
+displayRGB("flowers.jpg");
